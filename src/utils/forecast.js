@@ -12,7 +12,7 @@ const forecast = (latitude,longitude,callback) => {
             callback('bruh the place does not exist')
         }else{
             callback(undefined,
-                body.daily.data[0].summary + ' It is currently ' + body.currently.temperature + ' and chances of raining is ' + body.currently.precipProbability
+                body.daily.data[0].summary + ' It is currently ' + body.currently.temperature + ' and chances of raining is ' + body.currently.precipProbability + ' .Currently the humidity is ' + body.currently.humidity 
             )
         }
     })
