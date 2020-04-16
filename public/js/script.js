@@ -1,4 +1,4 @@
-console.log('Time is the essential part of life')
+
 
 
 const messageOne = document.querySelector('#message-1')
